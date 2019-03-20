@@ -292,7 +292,7 @@ include 'include/left_panel.php';
                 echo "<tr><td>" . $row["p_catg_code"] . "</td>";
                 echo "<td>" . $row["subcatg_code"] . "</td>";
                 echo "<td>" . $row["subcatg_title"] . "</td>";
-                echo "<td><a href='delete.php? id=" .$row['subcatg_code']."'> delete </a></td>";
+                echo "<td><a href='sub_delete.php? id=" .$row['subcatg_code']."'> Delete </a></td>";
                 echo "<td><a href=\"subcatg_update_2.php\" class =\"button\" target=\"_blank\">Edit</a></td></tr>";
             }
 
