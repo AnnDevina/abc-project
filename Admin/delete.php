@@ -1,7 +1,6 @@
 <?php
 
 include "db2.php";
-
 $id = $_GET['id'];
 
 $categoryQuery=  "DELETE FROM categries WHERE catg_code = '".$id."'";
