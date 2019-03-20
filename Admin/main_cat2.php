@@ -293,7 +293,7 @@ include 'include/left_panel.php';
 
                 echo "<tr><td>" . $row["catg_code"] . "</td>";
                 echo "<td>" . $row["catg_title"] . "</td>";
-                echo "<td><a href='delete.php? id=" .$row['catg_code']."'> delete </a></td>";
+                echo "<td><a href='delete.php? id=" .$row['catg_code']."'> Delete </a></td>";
                 echo "<td><a href=\"catg_update_2.php\" class =\"button\" target=\"_blank\">Edit</a></td></tr>";
 
             }
