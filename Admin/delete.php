@@ -3,6 +3,8 @@
 include "db2.php";
 $id = $_GET['id'];
 
+//Deleting sub category before deleting Category table
+
 $categoryQuery=  "DELETE FROM categries WHERE catg_code = '".$id."'";
 $subCategoryQuery = "DELETE FROM sub_categries WHERE p_catg_code = '".$id."' ";
     if (mysqli_query($conn, $subCategoryQuery)) {
