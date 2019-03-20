@@ -1,0 +1,26 @@
+.totals-table-header th{
+  text-align:center;
+}
+#add-product-btn{
+  margin-top: -35px;
+}
+.table-auto{
+  width:auto;
+  margin:0 auto;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 12px;
+}
+.button{
+  padding-top: 550px;
+}
+.container1 {
+  display: block;
+  position: relative;
+  padding-left: 500px;
+  margin-bottom: 12px;
+}
